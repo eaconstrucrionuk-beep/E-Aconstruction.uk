@@ -1,28 +1,28 @@
-# E&A Ltd Final Website
+# E&A Ltd Luxury Website
 
-This version uses your real project photos and includes:
+This folder is ready to upload directly to GitHub and deploy with Vercel.
 
-- Email: eaconstrucrion.uk@gmail.com
-- Direct Facebook page link:
-  https://www.facebook.com/share/1JWht17T7Y/?mibextid=wwXIfr
-- Location: E14, London
-- Canadian-owned wording
+## Included
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/`
+- Official E&A logo
+- Branded van and polo images
+- AI-generated architectural imagery used outside the Projects section
+- Real E&A project photographs used only in Projects
+- Correct email: `eaconstrucrion.uk@gmail.com`
+- Direct Facebook link: `https://www.facebook.com/share/1JWht17T7Y/?mibextid=wwXIfr`
+- E14, London
 - No phone number
-- Real flooring, kitchen, decorating and renovation photographs
-- Mobile menu, scrolling animations and fullscreen gallery
 
 ## Update GitHub
-
 1. Download and unzip this package.
 2. Open your existing GitHub repository.
-3. Choose **Add file → Upload files**.
-4. Drag all of these into GitHub:
-   - index.html
-   - styles.css
-   - script.js
-   - assets folder and all images inside it
-5. When GitHub asks about existing files, allow them to be replaced.
+3. Click **Add file → Upload files**.
+4. Upload all files and the complete `assets` folder.
+5. Replace the old files if GitHub asks.
 6. Click **Commit changes**.
-7. Vercel should redeploy automatically.
+7. Vercel will redeploy automatically.
 
-Important: upload the complete `assets` folder. If it is missing, the photos will not appear.
+Do not upload the ZIP itself into the repository. Upload the files inside the ZIP.

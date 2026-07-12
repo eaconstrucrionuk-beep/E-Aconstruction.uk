@@ -3,230 +3,163 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="E&A Ltd — Canadian-owned flooring, kitchen installation and home renovation specialists serving London from E14.">
-  <title>E&A Ltd | Renovation & Flooring Specialists London</title>
+  <meta name="theme-color" content="#090908">
+  <meta name="description" content="E&A Ltd — premium flooring, kitchens, decorating and property renovation across London. Based in E14.">
+  <title>E&A Ltd | Premium Construction & Renovation London</title>
+  <link rel="icon" href="assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="loader" aria-hidden="true">
+    <img src="assets/images/logo.png" alt="">
+    <span></span>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
+
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="E&A Ltd home">
-      <span class="brand-mark">E<span>&</span>A</span>
-      <small>LTD</small>
-    </a>
-
-    <nav class="desktop-nav" aria-label="Main navigation">
-      <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+    <a class="logo-link" href="#home"><img src="assets/images/logo.png" alt="E&A Ltd"></a>
+    <nav>
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#projects">Projects</a>
+      <a href="#about">About</a><a href="#process">Process</a><a href="#contact">Contact</a>
     </nav>
-
-    <a class="header-social" href="https://www.facebook.com/share/1JWht17T7Y/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
-      <span>f</span> Facebook
-    </a>
-
-    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+    <a class="nav-cta" href="mailto:eaconstrucrion.uk@gmail.com?subject=Free%20Quotation%20Request">Get free quote</a>
+    <button class="menu" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
   </header>
 
-  <main>
-    <section class="hero" id="home">
-      <img class="hero-photo" src="assets/hero.webp" alt="Completed open-plan kitchen and flooring renovation by E&A Ltd">
-      <div class="hero-overlay"></div>
-
-      <div class="hero-inner">
-        <p class="kicker">Canadian-owned · Based in E14, London</p>
-        <h1>Beautiful homes.<br><em>Built properly.</em></h1>
-        <p class="hero-copy">Premium flooring, fitted kitchens, decorating and complete property improvements delivered with care across London.</p>
-        <div class="hero-actions">
-          <a class="button button-gold" href="mailto:eaconstrucrion.uk@gmail.com?subject=Project%20Enquiry%20-%20E%26A%20Ltd">Email our team</a>
-          <a class="button button-outline" href="https://www.facebook.com/share/1JWht17T7Y/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Visit Facebook</a>
+  <main id="home">
+    <section class="hero">
+      <img class="hero-image" src="assets/images/hero.webp" alt="Luxury modern London home interior">
+      <div class="hero-shade"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Premium construction & renovation</p>
+        <h1>Building Exceptional<br>Homes Across London</h1>
+        <p>Luxury renovation <b>•</b> Premium flooring <b>•</b> Bespoke kitchens<br>Complete home transformations</p>
+        <div class="actions">
+          <a class="btn gold" href="#projects">View projects</a>
+          <a class="btn ghost" href="mailto:eaconstrucrion.uk@gmail.com?subject=Project%20Enquiry">Get free quote</a>
         </div>
       </div>
-
-      <div class="hero-services">
-        <span>Flooring</span>
-        <span>Kitchens</span>
-        <span>Decorating</span>
-        <span>Renovations</span>
-      </div>
+      <div class="trust-card reveal"><div>★★★★★</div><p>Trusted craftsmanship<br>across London.</p></div>
     </section>
 
-    <section class="intro reveal">
-      <p class="eyebrow">E&A Ltd</p>
-      <h2>Quality you can see in every detail.</h2>
-      <p>We combine careful preparation, skilled installation and clean finishing to create spaces that feel considered, practical and built to last.</p>
+    <section class="stats">
+      <div><strong>Premium</strong><span>Residential finishes</span></div>
+      <div><strong>Canadian</strong><span>Owned company</span></div>
+      <div><strong>100%</strong><span>Attention to detail</span></div>
+      <div><strong>E14</strong><span>London based</span></div>
     </section>
 
-    <section class="services-section" id="services">
-      <div class="section-heading reveal">
-        <div>
-          <p class="eyebrow">What we do</p>
-          <h2>Complete interior improvements.</h2>
-        </div>
-        <p>From subfloor preparation to the final coat of paint, our team handles the details that make a project feel complete.</p>
-      </div>
-
+    <section class="services section" id="services">
+      <div class="section-title reveal"><p class="eyebrow">What we do</p><h2>Our Premium Services</h2><span></span></div>
       <div class="service-grid">
-        <article class="service-card reveal">
-          <img src="assets/floor_1.webp" alt="Herringbone flooring installation">
-          <div><span>01</span><h3>Premium Flooring</h3><p>Herringbone, engineered wood, hardwood and modern floor finishes.</p></div>
-        </article>
-        <article class="service-card reveal">
-          <img src="assets/kitchen_2.webp" alt="Green fitted kitchen by E&A Ltd">
-          <div><span>02</span><h3>Kitchen Installation</h3><p>Cabinet fitting, islands, worktops, appliances and final detailing.</p></div>
-        </article>
-        <article class="service-card reveal">
-          <img src="assets/wall_1.webp" alt="Decorative wall panelling and wallpaper">
-          <div><span>03</span><h3>Decorating & Panelling</h3><p>Painting, wallpaper, wall moulding, feature walls and trim work.</p></div>
-        </article>
-        <article class="service-card reveal">
-          <img src="assets/process_2.webp" alt="Renovation floor preparation">
-          <div><span>04</span><h3>Property Renovation</h3><p>Preparation, repairs, interior upgrades and complete room transformations.</p></div>
-        </article>
+        <article class="service reveal"><img src="assets/images/service-flooring.webp" alt=""><div><b>01</b><h3>Premium Flooring</h3><p>Engineered wood and refined finishes.</p></div></article>
+        <article class="service reveal"><img src="assets/images/service-herringbone.webp" alt=""><div><b>02</b><h3>Herringbone Flooring</h3><p>Precision patterns with timeless character.</p></div></article>
+        <article class="service reveal"><img src="assets/images/service-kitchen.webp" alt=""><div><b>03</b><h3>Bespoke Kitchens</h3><p>Cabinet fitting, islands and final detailing.</p></div></article>
+        <article class="service reveal"><img src="assets/images/service-painting.webp" alt=""><div><b>04</b><h3>Painting</h3><p>Smooth walls and clean architectural finishes.</p></div></article>
+        <article class="service reveal"><img src="assets/images/service-decorating.webp" alt=""><div><b>05</b><h3>Decorating</h3><p>Wallpaper, panelling and feature details.</p></div></article>
+        <article class="service reveal"><img src="assets/images/service-renovation.webp" alt=""><div><b>06</b><h3>Full Renovations</h3><p>Coordinated interior transformation work.</p></div></article>
+        <article class="service reveal"><img src="assets/images/service-carpentry.webp" alt=""><div><b>07</b><h3>Carpentry</h3><p>Trim, doors, skirting and fitted elements.</p></div></article>
+        <article class="service reveal"><img src="assets/images/service-garden.webp" alt=""><div><b>08</b><h3>Garden Rooms</h3><p>Practical, modern spaces beyond the home.</p></div></article>
+        <article class="service reveal"><img src="assets/images/service-media.webp" alt=""><div><b>09</b><h3>Media Walls</h3><p>Contemporary focal points with clean lines.</p></div></article>
+        <article class="service reveal"><img src="assets/images/service-property.webp" alt=""><div><b>10</b><h3>Property Improvements</h3><p>Careful upgrades that elevate everyday living.</p></div></article>
       </div>
     </section>
 
-    <section class="featured" id="projects">
-      <div class="featured-copy reveal">
-        <p class="eyebrow light">Featured project</p>
-        <h2>Open-plan kitchen & herringbone flooring.</h2>
-        <p>A full interior transformation combining fitted cabinetry, an island, lighting, wide glazing and carefully finished timber flooring.</p>
-        <a href="https://www.facebook.com/share/1JWht17T7Y/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">See more projects on Facebook ↗</a>
+    <section class="why">
+      <div class="why-copy reveal">
+        <p class="eyebrow">Why choose E&A</p>
+        <h2>Built on trust.<br>Finished with pride.</h2>
+        <p>We believe premium work starts with preparation, honest communication and respect for your home.</p>
       </div>
-      <div class="featured-images">
-        <figure class="big reveal"><img src="assets/kitchen_1.webp" alt="Completed kitchen and flooring project"><figcaption>Completed open-plan renovation</figcaption></figure>
-        <figure class="reveal"><img src="assets/floor_2.webp" alt="Polished herringbone floor"><figcaption>Herringbone finish</figcaption></figure>
-        <figure class="reveal"><img src="assets/kitchen_3.webp" alt="Fitted kitchen island and cabinets"><figcaption>Fitted kitchen</figcaption></figure>
-      </div>
-    </section>
-
-    <section class="project-stories">
-      <div class="story reveal">
-        <div class="story-image"><img src="assets/wall_2.webp" alt="Wallpaper and wall moulding project"></div>
-        <div class="story-copy">
-          <p class="eyebrow">Interior finishing</p>
-          <h2>Character through craftsmanship.</h2>
-          <p>Detailed wall moulding, decorative wallpaper and crisp paintwork create a refined finish without losing the character of the home.</p>
-        </div>
-      </div>
-
-      <div class="story reverse reveal">
-        <div class="story-image"><img src="assets/dark_floor.webp" alt="Dark engineered wood floor"></div>
-        <div class="story-copy">
-          <p class="eyebrow">Engineered wood</p>
-          <h2>Warm, durable and beautifully laid.</h2>
-          <p>Floor preparation and accurate installation are treated as seriously as the final appearance, helping every floor perform as well as it looks.</p>
-        </div>
+      <div class="why-grid">
+        <div class="reveal"><span>✦</span><h3>Canadian-owned</h3><p>A clear, reliable and service-led approach.</p></div>
+        <div class="reveal"><span>◇</span><h3>Free site visits</h3><p>We discuss the work before giving a quotation.</p></div>
+        <div class="reveal"><span>⌁</span><h3>Careful preparation</h3><p>The hidden groundwork matters as much as the finish.</p></div>
+        <div class="reveal"><span>✓</span><h3>Quality finishing</h3><p>Every detail is reviewed before handover.</p></div>
       </div>
     </section>
 
-    <section class="gallery-section">
-      <div class="section-heading reveal">
-        <div>
-          <p class="eyebrow">Recent work</p>
-          <h2>Real projects. Real workmanship.</h2>
-        </div>
-        <p>Selected photographs from kitchens, flooring, decorating, utility rooms and complete interior renovations.</p>
+    <section class="projects section" id="projects">
+      <div class="projects-heading reveal">
+        <div><p class="eyebrow">Our real work</p><h2>Selected Projects</h2></div>
+        <p>Every photograph in this gallery is from genuine E&A Ltd work. Click any image to view it full screen.</p>
       </div>
-
-      <div class="masonry">
-        <button class="gallery-item tall reveal" data-src="assets/stairs.webp"><img src="assets/stairs.webp" alt="Finished staircase and wall panelling"><span>Staircase finishing</span></button>
-        <button class="gallery-item reveal" data-src="assets/utility.webp"><img src="assets/utility.webp" alt="Fitted utility room cabinets"><span>Utility room</span></button>
-        <button class="gallery-item wide reveal" data-src="assets/orange_wc.webp"><img src="assets/orange_wc.webp" alt="Decorated WC with wall panelling"><span>Decorating</span></button>
-        <button class="gallery-item reveal" data-src="assets/floor_3.webp"><img src="assets/floor_3.webp" alt="Finished parquet floor"><span>Parquet flooring</span></button>
-        <button class="gallery-item tall reveal" data-src="assets/kitchen_2.webp"><img src="assets/kitchen_2.webp" alt="Dark green fitted kitchen"><span>Kitchen fitting</span></button>
-        <button class="gallery-item reveal" data-src="assets/floor_4.webp"><img src="assets/floor_4.webp" alt="Engineered wood floor installation"><span>Engineered wood</span></button>
-        <button class="gallery-item wide reveal" data-src="assets/wide_room.webp"><img src="assets/wide_room.webp" alt="Large open plan renovated room"><span>Open-plan renovation</span></button>
+      <div class="filters reveal">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="flooring">Flooring</button>
+        <button data-filter="kitchen">Kitchens</button>
+        <button data-filter="decorating">Decorating</button>
+        <button data-filter="renovation">Renovations</button>
       </div>
-    </section>
-
-    <section class="process-section">
-      <div class="process-intro reveal">
-        <p class="eyebrow light">Our approach</p>
-        <h2>Good results begin before the finish.</h2>
-        <p>We assess the space, prepare it correctly and work through each stage with clear communication and attention to detail.</p>
-      </div>
-      <div class="process-steps">
-        <div class="reveal"><span>01</span><h3>Contact</h3><p>Send your project details by email or Facebook.</p></div>
-        <div class="reveal"><span>02</span><h3>Site visit</h3><p>We review the work and discuss the best approach.</p></div>
-        <div class="reveal"><span>03</span><h3>Quotation</h3><p>You receive clear information before work starts.</p></div>
-        <div class="reveal"><span>04</span><h3>Delivery</h3><p>We complete the work carefully and keep you updated.</p></div>
-      </div>
-      <div class="process-gallery reveal">
-        <img src="assets/process_1.webp" alt="Floor structure and insulation work">
-        <img src="assets/process_3.webp" alt="Herringbone flooring installation in progress">
+      <div class="portfolio">
+        <button data-category="kitchen" data-src="assets/projects/project-01.webp"><img loading="lazy" src="assets/projects/project-01.webp" alt="E&A kitchen project"><span>Open-plan kitchen</span></button>
+        <button data-category="kitchen" data-src="assets/projects/project-02.webp"><img loading="lazy" src="assets/projects/project-02.webp" alt="E&A kitchen installation"><span>Fitted kitchen</span></button>
+        <button data-category="kitchen" data-src="assets/projects/project-03.webp"><img loading="lazy" src="assets/projects/project-03.webp" alt="E&A shaker kitchen"><span>Shaker cabinetry</span></button>
+        <button data-category="kitchen" data-src="assets/projects/project-04.webp"><img loading="lazy" src="assets/projects/project-04.webp" alt="E&A kitchen finish"><span>Kitchen detailing</span></button>
+        <button data-category="flooring" data-src="assets/projects/project-05.webp"><img loading="lazy" src="assets/projects/project-05.webp" alt="Herringbone floor"><span>Herringbone flooring</span></button>
+        <button data-category="flooring" data-src="assets/projects/project-06.webp"><img loading="lazy" src="assets/projects/project-06.webp" alt="Parquet floor"><span>Parquet finish</span></button>
+        <button data-category="flooring" data-src="assets/projects/project-07.webp"><img loading="lazy" src="assets/projects/project-07.webp" alt="Wood flooring"><span>Engineered wood</span></button>
+        <button data-category="flooring" data-src="assets/projects/project-08.webp"><img loading="lazy" src="assets/projects/project-08.webp" alt="Oak flooring"><span>Oak installation</span></button>
+        <button data-category="decorating" data-src="assets/projects/project-09.webp"><img loading="lazy" src="assets/projects/project-09.webp" alt="Wall panelling"><span>Wall panelling</span></button>
+        <button data-category="decorating" data-src="assets/projects/project-10.webp"><img loading="lazy" src="assets/projects/project-10.webp" alt="Wallpaper and moulding"><span>Wallpaper & moulding</span></button>
+        <button data-category="decorating" data-src="assets/projects/project-11.webp"><img loading="lazy" src="assets/projects/project-11.webp" alt="Staircase finish"><span>Staircase finishing</span></button>
+        <button data-category="renovation" data-src="assets/projects/project-12.webp"><img loading="lazy" src="assets/projects/project-12.webp" alt="Utility room"><span>Utility room</span></button>
+        <button data-category="decorating" data-src="assets/projects/project-13.webp"><img loading="lazy" src="assets/projects/project-13.webp" alt="Decorated WC"><span>Decorated WC</span></button>
+        <button data-category="renovation" data-src="assets/projects/project-14.webp"><img loading="lazy" src="assets/projects/project-14.webp" alt="Open plan renovation"><span>Open-plan renovation</span></button>
       </div>
     </section>
 
-    <section class="about-section" id="about">
-      <div class="about-photo reveal"><img src="assets/hero.webp" alt="E&A Ltd completed renovation"></div>
-      <div class="about-copy reveal">
-        <p class="eyebrow">About us</p>
-        <h2>Canadian values. London workmanship.</h2>
-        <p>E&A Ltd is a Canadian-owned property improvement company serving London from E14. We specialise in flooring, fitted kitchens, decorating and carefully managed interior renovation work.</p>
-        <p>Our approach is straightforward: understand the job, communicate clearly and complete the work with pride.</p>
-        <div class="about-points">
-          <span>Careful preparation</span>
-          <span>Clear communication</span>
-          <span>Quality finishing</span>
-        </div>
+    <section class="about section" id="about">
+      <div class="about-content reveal">
+        <p class="eyebrow">The E&A standard</p>
+        <h2>Professional identity.<br>Personal responsibility.</h2>
+        <p>E&A Ltd is a Canadian-owned construction and property improvement company based in E14, London. Our standard is simple: clear communication, careful workmanship and reliable service.</p>
+      </div>
+      <div class="brand-cards">
+        <figure class="reveal"><img src="assets/images/logo.png" alt="E&A Ltd official logo"><figcaption>Official E&A identity</figcaption></figure>
+        <figure class="reveal"><img src="assets/images/brand-van.webp" alt="E&A Ltd branded van"><figcaption>Professional on-site presence</figcaption></figure>
+        <figure class="reveal"><img src="assets/images/brand-polo.webp" alt="E&A Ltd branded uniform"><figcaption>Branded team uniform</figcaption></figure>
       </div>
     </section>
 
-    <section class="facebook-section reveal">
-      <div class="facebook-icon">f</div>
-      <div>
-        <p class="eyebrow light">Follow our work</p>
-        <h2>Visit E&A Ltd on Facebook.</h2>
-        <p>See our latest projects, progress updates and customer feedback, or send us a direct message.</p>
+    <section class="process section" id="process">
+      <div class="section-title reveal"><p class="eyebrow">How it works</p><h2>A Clear Project Journey</h2><span></span></div>
+      <div class="timeline">
+        <div class="reveal"><b>01</b><h3>Contact</h3><p>Send details by email or Facebook.</p></div>
+        <div class="reveal"><b>02</b><h3>Site visit</h3><p>We assess the project in person.</p></div>
+        <div class="reveal"><b>03</b><h3>Quotation</h3><p>Receive clear scope and pricing.</p></div>
+        <div class="reveal"><b>04</b><h3>Construction</h3><p>Work is managed carefully on site.</p></div>
+        <div class="reveal"><b>05</b><h3>Inspection</h3><p>Details and finishes are reviewed.</p></div>
+        <div class="reveal"><b>06</b><h3>Handover</h3><p>Your completed space is delivered.</p></div>
       </div>
-      <a class="button button-gold" href="https://www.facebook.com/share/1JWht17T7Y/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Open Facebook</a>
     </section>
 
-    <section class="contact-section" id="contact">
+    <section class="contact section" id="contact">
+      <img class="contact-logo" src="assets/images/logo.png" alt="E&A Ltd">
       <p class="eyebrow">Start your project</p>
-      <h2>Let’s discuss your home.</h2>
-      <p class="contact-lead">Contact us by email or through our official Facebook page. We are based in E14 and serve London and surrounding areas.</p>
-
-      <div class="contact-grid">
-        <a href="mailto:eaconstrucrion.uk@gmail.com?subject=Project%20Enquiry%20-%20E%26A%20Ltd">
-          <small>Email</small>
-          <strong>eaconstrucrion.uk@gmail.com</strong>
-          <span>Send an enquiry ↗</span>
-        </a>
-        <a href="https://www.facebook.com/share/1JWht17T7Y/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
-          <small>Facebook</small>
-          <strong>E&A Ltd</strong>
-          <span>Message our page ↗</span>
-        </a>
-        <div>
-          <small>Based in</small>
-          <strong>E14, London</strong>
-          <span>Serving London & nearby areas</span>
-        </div>
+      <h2>Let’s build something exceptional.</h2>
+      <p>Contact us by email or through our official Facebook page to discuss your project and arrange a free site visit.</p>
+      <div class="actions">
+        <a class="btn gold" href="mailto:eaconstrucrion.uk@gmail.com?subject=Project%20Enquiry">Email E&A Ltd</a>
+        <a class="btn ghost" href="https://www.facebook.com/share/1JWht17T7Y/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Open Facebook</a>
+      </div>
+      <div class="details">
+        <span>eaconstrucrion.uk@gmail.com</span><span>E14, London</span><span>Canadian-owned</span>
       </div>
     </section>
   </main>
 
   <footer>
-    <a class="brand footer-brand" href="#home"><span class="brand-mark">E<span>&</span>A</span><small>LTD</small></a>
-    <p>Flooring, kitchens and property improvements across London.</p>
-    <div class="footer-links">
-      <a href="mailto:eaconstrucrion.uk@gmail.com">Email</a>
-      <a href="https://www.facebook.com/share/1JWht17T7Y/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a>
-      <span>E14, London</span>
-    </div>
-    <small class="copyright">© <span id="year"></span> E&A Ltd. All rights reserved.</small>
+    <img src="assets/images/logo.png" alt="E&A Ltd">
+    <p>Property • Maintenance • Solutions</p>
+    <div><a href="mailto:eaconstrucrion.uk@gmail.com">Email</a><a href="https://www.facebook.com/share/1JWht17T7Y/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a></div>
+    <small>© <span id="year"></span> E&A Ltd. Every detail matters. Every finish reflects our standard.</small>
   </footer>
 
-  <div class="lightbox" aria-hidden="true">
-    <button aria-label="Close image">×</button>
-    <img src="" alt="Expanded project photograph">
-  </div>
-
+  <div class="lightbox" aria-hidden="true"><button aria-label="Close">×</button><img src="" alt="Expanded E&A project"></div>
   <script src="script.js"></script>
 </body>
 </html>
