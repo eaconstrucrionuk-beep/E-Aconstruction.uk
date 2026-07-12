@@ -1,34 +1,24 @@
-const menuToggle = document.querySelector(".menu-toggle");
-const nav = document.querySelector(".main-nav");
+const year = document.getElementById("year");
+year.textContent = new Date().getFullYear();
 
-menuToggle.addEventListener("click", () => {
-  const open = nav.classList.toggle("open");
-  menuToggle.setAttribute("aria-expanded", open ? "true" : "false");
-});
-
-document.querySelectorAll(".main-nav a").forEach(link => {
-  link.addEventListener("click", () => {
-    nav.classList.remove("open");
-    menuToggle.setAttribute("aria-expanded", "false");
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) entry.target.classList.add("visible");
   });
+}, { threshold: 0.12 });
+
+document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+const menuButton = document.querySelector(".menu-button");
+const header = document.querySelector(".header");
+menuButton.addEventListener("click", () => {
+  const isOpen = header.classList.toggle("menu-open");
+  menuButton.setAttribute("aria-expanded", String(isOpen));
 });
 
-document.getElementById("year").textContent = new Date().getFullYear();
-
-document.getElementById("quoteForm").addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const data = new FormData(event.currentTarget);
-  const subject = encodeURIComponent("Website quote request - E&A Construction");
-  const body = encodeURIComponent(
-`Name: ${data.get("name")}
-Phone: ${data.get("phone")}
-Area: ${data.get("area")}
-Service: ${data.get("service")}
-
-Project details:
-${data.get("details") || "Not provided"}`
-  );
-
-  window.location.href = `mailto:eaconstruction.uk@gmail.com?subject=${subject}&body=${body}`;
+document.querySelectorAll(".desktop-nav a").forEach(link => {
+  link.addEventListener("click", () => {
+    header.classList.remove("menu-open");
+    menuButton.setAttribute("aria-expanded", "false");
+  });
 });

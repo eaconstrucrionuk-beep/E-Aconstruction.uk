@@ -1,41 +1,43 @@
-# E&A Construction Website
+# E&A Ltd Premium Website
 
-## How to publish on Vercel
+This version includes:
+- Premium image-led black, cream and gold design
+- No phone number
+- Email: eaconstruction.uk@gmail.com
+- Facebook page name: E&A Ltd
+- Location: E14, London
+- Canadian-owned company wording
+- Mobile-friendly layout and animations
 
-1. Log in to GitHub.
-2. Create a new repository called `ea-construction`.
-3. Upload these files:
+## Important: Facebook direct link
+
+The website currently opens a Facebook search for **E&A Ltd**, because a screenshot does not contain the exact page URL.
+
+To make every Facebook button open your page directly:
+
+1. Open your Facebook page.
+2. Tap the three dots.
+3. Choose **Copy link**.
+4. Open `index.html`.
+5. Replace every occurrence of:
+
+https://www.facebook.com/search/top?q=E%26A%20Ltd
+
+with your copied Facebook link.
+
+## Upload this version to GitHub
+
+1. Open your GitHub repository.
+2. Choose **Add file → Upload files**.
+3. Upload:
    - index.html
    - styles.css
    - script.js
-4. Log in to Vercel with GitHub.
-5. Click **Add New → Project**.
-6. Import the `ea-construction` repository.
-7. Leave the settings as default and click **Deploy**.
+4. Confirm **Commit changes**.
+5. Vercel will automatically publish the new version.
 
-## Important edits before publishing
+## Replacing sample photos with your real work
 
-In `index.html`, replace:
-- `+44 0000 000000` with your real phone number.
-- `440000000000` in the WhatsApp link with your number in international format.
-- `eaconstruction.uk@gmail.com` with your real business email if different.
-- Sample project cards with your real project photos.
-- Sample reviews with genuine customer reviews.
-
-In `script.js`, replace:
-- `eaconstruction.uk@gmail.com` with your real email.
-
-## Add real project photos
-
-Put images in the same folder, for example:
-- flooring.jpg
-- kitchen.jpg
-- paving.jpg
-
-Then replace the sample backgrounds in `styles.css` with:
-`background-image: linear-gradient(...), url("flooring.jpg");`
-
-## Custom domain later
-
-After buying a `.co.uk` domain, open your Vercel project:
-**Settings → Domains → Add Domain**
+The current version uses professional sample images hosted online.
+When your original project images are available, add them to the repository
+and replace the image URLs in `styles.css`.

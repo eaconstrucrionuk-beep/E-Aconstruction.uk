@@ -1,289 +1,206 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="E&A Construction provides professional home improvement and building services across London and surrounding areas." />
-  <title>E&A Construction | London Home Improvements</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="E&A Ltd — Canadian-owned flooring, kitchen installation and property improvement specialists serving London from E14.">
+  <title>E&A Ltd | Property Improvements in London</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#home" aria-label="E&A Construction home">
-        <span class="brand-mark">E&A</span>
-        <span class="brand-text">Construction</span>
-      </a>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="E&A Ltd home">
+      <span class="logo-main">E<span>&</span>A</span>
+      <small>LTD</small>
+    </a>
 
-      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#work">Our Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-      <nav class="main-nav">
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#contact" class="nav-cta">Free Quote</a>
-      </nav>
-    </div>
+    <a class="facebook-top fb-link" href="https://www.facebook.com/search/top?q=E%26A%20Ltd" target="_blank" rel="noopener">
+      <span class="facebook-icon">f</span>
+      Follow us
+    </a>
+
+    <button class="menu-button" aria-label="Open menu" aria-expanded="false">
+      <i></i><i></i>
+    </button>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <p class="eyebrow">London & surrounding areas</p>
-        <h1>Built with care.<br><span>Finished with pride.</span></h1>
-        <p class="hero-copy">
-          Professional flooring, kitchens, painting, fencing, paving, garden work and general property improvements.
-        </p>
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="kicker">Canadian-owned · London E14</p>
+        <h1>Spaces made<br><em>beautiful.</em></h1>
+        <p class="intro">Premium flooring, kitchen installation and considered property improvements, delivered with care across London.</p>
+
         <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Request a Free Quote</a>
-          <a href="tel:+440000000000" class="btn btn-secondary">Call Us</a>
-        </div>
-        <div class="hero-trust">
-          <span>✓ Free site visit</span>
-          <span>✓ Clear pricing</span>
-          <span>✓ Reliable team</span>
+          <a class="button gold" href="mailto:eaconstruction.uk@gmail.com?subject=Project%20Enquiry%20%E2%80%93%20E%26A%20Ltd">Email our team</a>
+          <a class="button glass fb-link" href="https://www.facebook.com/search/top?q=E%26A%20Ltd" target="_blank" rel="noopener">
+            Visit Facebook
+          </a>
         </div>
       </div>
-    </section>
 
-    <section class="stats">
-      <div class="container stats-grid">
-        <div><strong>8+</strong><span>Core services</span></div>
-        <div><strong>London</strong><span>& nearby areas</span></div>
-        <div><strong>Free</strong><span>Initial visit</span></div>
-        <div><strong>Fast</strong><span>Quote response</span></div>
+      <div class="hero-bottom">
+        <span>Flooring</span>
+        <span>Kitchen installation</span>
+        <span>Property improvements</span>
       </div>
+
+      <a class="scroll" href="#services" aria-label="Scroll to services">Scroll <b>↓</b></a>
     </section>
 
-    <section class="section services" id="services">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow dark">What we do</p>
-            <h2>Complete property improvement services</h2>
-          </div>
-          <p>From one-room upgrades to full property improvements, our team delivers clean, practical and long-lasting results.</p>
-        </div>
+    <section class="statement reveal">
+      <p>We believe excellent work is found in the details.</p>
+      <h2>Clean finishes. Honest communication. A home you are proud to live in.</h2>
+    </section>
 
-        <div class="service-grid">
-          <article class="service-card">
-            <span class="service-number">01</span>
+    <section class="services" id="services">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Our expertise</p>
+          <h2>Crafted for the way you live.</h2>
+        </div>
+        <p>From precise flooring and fitted kitchens to complete interior and exterior improvements, every project is approached with the same attention to detail.</p>
+      </div>
+
+      <div class="service-panels">
+        <article class="service-panel flooring reveal">
+          <div class="service-photo"></div>
+          <div class="service-overlay"></div>
+          <div class="service-content">
+            <span>01</span>
             <h3>Flooring</h3>
-            <p>Laminate, engineered wood, vinyl and floor preparation with neat, professional finishing.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">02</span>
+            <p>Beautifully fitted laminate, engineered wood and modern floor finishes.</p>
+          </div>
+        </article>
+
+        <article class="service-panel kitchen reveal">
+          <div class="service-photo"></div>
+          <div class="service-overlay"></div>
+          <div class="service-content">
+            <span>02</span>
             <h3>Kitchen Installation</h3>
-            <p>Cabinet fitting, worktops, finishing details and complete kitchen refresh projects.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">03</span>
-            <h3>Painting & Decorating</h3>
-            <p>Walls, ceilings, woodwork and full-room decorating for a smooth and modern result.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">04</span>
-            <h3>Fencing</h3>
-            <p>New fence installation, repairs, posts, panels and garden boundary improvements.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">05</span>
-            <h3>Block Paving</h3>
-            <p>Driveways, paths, patios and outdoor stonework designed for durability and kerb appeal.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">06</span>
-            <h3>Garden Improvements</h3>
-            <p>Artificial grass, garden rooms, landscaping details and practical outdoor upgrades.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">07</span>
-            <h3>General Handyman</h3>
-            <p>Repairs, assembly, fitting and the smaller jobs that keep your property looking its best.</p>
-          </article>
-          <article class="service-card service-card-accent">
-            <span class="service-number">08</span>
-            <h3>Something Else?</h3>
-            <p>Send us photos and details. We will let you know quickly how we can help.</p>
-            <a href="#contact">Ask our team →</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section projects" id="projects">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow dark">Recent work</p>
-            <h2>Transformations that speak for themselves</h2>
+            <p>Thoughtful fitting, precise detailing and a polished final result.</p>
           </div>
-          <p>Replace these sample cards with your own before-and-after project photos.</p>
-        </div>
+        </article>
 
-        <div class="project-grid">
-          <article class="project-card project-one">
-            <div class="project-label"><span>Flooring</span><strong>Modern laminate finish</strong></div>
-          </article>
-          <article class="project-card project-two">
-            <div class="project-label"><span>Kitchen</span><strong>Full cabinet installation</strong></div>
-          </article>
-          <article class="project-card project-three">
-            <div class="project-label"><span>Exterior</span><strong>Fresh paving and fencing</strong></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section about" id="about">
-      <div class="container about-grid">
-        <div class="about-visual">
-          <div class="about-badge"><strong>E&A</strong><span>Construction</span></div>
-        </div>
-        <div class="about-copy">
-          <p class="eyebrow dark">Why choose us</p>
-          <h2>A reliable team for every stage of your project</h2>
-          <p>
-            We visit your property, understand the work, provide a clear quote and start once everything is agreed.
-            Our focus is simple: good communication, tidy workmanship and a result you can be proud of.
-          </p>
-          <div class="check-list">
-            <div><span>✓</span><p><strong>Free initial visit</strong><br>We assess the job and discuss your options.</p></div>
-            <div><span>✓</span><p><strong>Clear quote</strong><br>No confusing pricing or hidden surprises.</p></div>
-            <div><span>✓</span><p><strong>Respect for your home</strong><br>Careful, tidy and organised working.</p></div>
+        <article class="service-panel improvements reveal">
+          <div class="service-photo"></div>
+          <div class="service-overlay"></div>
+          <div class="service-content">
+            <span>03</span>
+            <h3>Property Improvements</h3>
+            <p>Painting, decorating, fencing, paving, gardens and practical upgrades.</p>
           </div>
-          <a class="text-link" href="#contact">Discuss your project →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="work-copy reveal">
+        <p class="eyebrow light">Selected work</p>
+        <h2>Transformations designed to last.</h2>
+        <p>See more completed projects, progress updates and customer feedback on our Facebook page.</p>
+        <a class="text-link fb-link" href="https://www.facebook.com/search/top?q=E%26A%20Ltd" target="_blank" rel="noopener">Explore E&A Ltd on Facebook <span>↗</span></a>
+      </div>
+
+      <div class="work-gallery">
+        <figure class="work-card tall reveal">
+          <div class="work-image work-one"></div>
+          <figcaption><span>Kitchen</span><strong>Contemporary installation</strong></figcaption>
+        </figure>
+        <figure class="work-card reveal">
+          <div class="work-image work-two"></div>
+          <figcaption><span>Flooring</span><strong>Warm, seamless finish</strong></figcaption>
+        </figure>
+        <figure class="work-card reveal">
+          <div class="work-image work-three"></div>
+          <figcaption><span>Interior</span><strong>Clean modern detailing</strong></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-image reveal"></div>
+      <div class="about-content reveal">
+        <p class="eyebrow">About E&A Ltd</p>
+        <h2>Canadian values.<br>London craftsmanship.</h2>
+        <p>E&A Ltd is a Canadian-owned construction and property-improvement company serving London from E14. We specialise in flooring, kitchen cabinet installation and carefully finished home improvements.</p>
+        <p>Our approach is straightforward: listen properly, communicate clearly and complete every job with pride.</p>
+
+        <div class="principles">
+          <div><b>01</b><span>Quality workmanship</span></div>
+          <div><b>02</b><span>Reliable communication</span></div>
+          <div><b>03</b><span>Attention to detail</span></div>
         </div>
       </div>
     </section>
 
-    <section class="section process">
-      <div class="container">
-        <p class="eyebrow light">Simple process</p>
-        <h2>From first message to finished project</h2>
-        <div class="process-grid">
-          <div><span>1</span><h3>Contact us</h3><p>Send photos, details and your location.</p></div>
-          <div><span>2</span><h3>Free visit</h3><p>We inspect the work and understand your needs.</p></div>
-          <div><span>3</span><h3>Agree the quote</h3><p>You receive clear pricing before work begins.</p></div>
-          <div><span>4</span><h3>We get to work</h3><p>Our team completes the job carefully and efficiently.</p></div>
+    <section class="social-proof reveal">
+      <div>
+        <p class="eyebrow light">Follow our work</p>
+        <h2>Projects, progress and customer feedback.</h2>
+      </div>
+      <div class="social-card">
+        <div class="social-logo">f</div>
+        <div>
+          <small>Facebook page</small>
+          <h3>E&A Ltd</h3>
+          <p>View our latest projects and send us a message directly through Facebook.</p>
         </div>
+        <a class="button gold fb-link" href="https://www.facebook.com/search/top?q=E%26A%20Ltd" target="_blank" rel="noopener">Open Facebook</a>
       </div>
     </section>
 
-    <section class="section reviews" id="reviews">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow dark">Customer feedback</p>
-            <h2>Trusted for quality and reliability</h2>
-          </div>
-          <p>These are sample reviews. Replace them with real customer feedback when available.</p>
-        </div>
-        <div class="review-grid">
-          <blockquote>
-            <div class="stars">★★★★★</div>
-            <p>“Very professional from the first visit. The flooring was completed neatly and the room looks completely different.”</p>
-            <footer>— Customer in London</footer>
-          </blockquote>
-          <blockquote>
-            <div class="stars">★★★★★</div>
-            <p>“Good communication, fair price and tidy work. We are very happy with our kitchen installation.”</p>
-            <footer>— Customer in Essex</footer>
-          </blockquote>
-          <blockquote>
-            <div class="stars">★★★★★</div>
-            <p>“Reliable team and a great result. They completed the fencing and paving exactly as discussed.”</p>
-            <footer>— Customer in Greater London</footer>
-          </blockquote>
-        </div>
-      </div>
-    </section>
+    <section class="contact" id="contact">
+      <p class="eyebrow">Start a conversation</p>
+      <h2>Planning a project?</h2>
+      <p class="contact-lead">Tell us what you have in mind. Reach our team by email or message E&A Ltd on Facebook.</p>
 
-    <section class="section contact" id="contact">
-      <div class="container contact-grid">
-        <div class="contact-copy">
-          <p class="eyebrow light">Start your project</p>
-          <h2>Tell us what you need</h2>
-          <p>Send the job details and we will contact you to arrange a free visit and quote.</p>
-          <div class="contact-details">
-            <a href="tel:+440000000000">📞 +44 0000 000000</a>
-            <a href="mailto:eaconstruction.uk@gmail.com">✉ eaconstruction.uk@gmail.com</a>
-            <span>📍 London & surrounding areas</span>
-          </div>
+      <div class="contact-options">
+        <a class="contact-box" href="mailto:eaconstruction.uk@gmail.com?subject=Project%20Enquiry%20%E2%80%93%20E%26A%20Ltd">
+          <small>Email</small>
+          <strong>eaconstruction.uk@gmail.com</strong>
+          <span>Send an enquiry ↗</span>
+        </a>
+        <a class="contact-box fb-link" href="https://www.facebook.com/search/top?q=E%26A%20Ltd" target="_blank" rel="noopener">
+          <small>Facebook</small>
+          <strong>E&A Ltd</strong>
+          <span>Visit our page ↗</span>
+        </a>
+        <div class="contact-box">
+          <small>Based in</small>
+          <strong>E14, London</strong>
+          <span>Serving London and surrounding areas</span>
         </div>
-
-        <form class="quote-form" id="quoteForm">
-          <label>
-            Full name
-            <input type="text" name="name" placeholder="Your name" required>
-          </label>
-          <label>
-            Phone number
-            <input type="tel" name="phone" placeholder="+44..." required>
-          </label>
-          <label>
-            Postcode / Area
-            <input type="text" name="area" placeholder="e.g. E14, London" required>
-          </label>
-          <label>
-            Service needed
-            <select name="service" required>
-              <option value="">Choose a service</option>
-              <option>Flooring</option>
-              <option>Kitchen Installation</option>
-              <option>Painting & Decorating</option>
-              <option>Fencing</option>
-              <option>Block Paving</option>
-              <option>Garden Improvements</option>
-              <option>General Handyman</option>
-              <option>Other</option>
-            </select>
-          </label>
-          <label>
-            Project details
-            <textarea name="details" rows="4" placeholder="Tell us briefly about the job"></textarea>
-          </label>
-          <button type="submit" class="btn btn-primary full">Send Quote Request</button>
-          <small>This demo form opens your email app. We can later connect it to Formspree, WhatsApp or another service.</small>
-        </form>
       </div>
     </section>
   </main>
 
-  <a class="whatsapp-float" href="https://wa.me/440000000000?text=Hello%20E%26A%20Construction%2C%20I%20would%20like%20a%20quote." target="_blank" rel="noopener" aria-label="Message us on WhatsApp">WhatsApp</a>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <a class="brand footer-brand" href="#home">
-          <span class="brand-mark">E&A</span>
-          <span class="brand-text">Construction</span>
-        </a>
-        <p>Professional property improvement services across London and surrounding areas.</p>
-      </div>
-      <div>
-        <strong>Services</strong>
-        <a href="#services">Flooring</a>
-        <a href="#services">Kitchens</a>
-        <a href="#services">Painting</a>
-        <a href="#services">Fencing & paving</a>
-      </div>
-      <div>
-        <strong>Company</strong>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#contact">Contact</a>
-      </div>
+  <footer>
+    <a class="logo footer-logo" href="#home">
+      <span class="logo-main">E<span>&</span>A</span>
+      <small>LTD</small>
+    </a>
+    <p>Canadian-owned property improvement specialists in London.</p>
+    <div class="footer-links">
+      <a href="mailto:eaconstruction.uk@gmail.com">Email</a>
+      <a class="fb-link" href="https://www.facebook.com/search/top?q=E%26A%20Ltd" target="_blank" rel="noopener">Facebook</a>
+      <span>E14, London</span>
     </div>
-    <div class="container copyright">© <span id="year"></span> E&A Construction. All rights reserved.</div>
+    <small class="copyright">© <span id="year"></span> E&A Ltd. All rights reserved.</small>
   </footer>
 
   <script src="script.js"></script>
