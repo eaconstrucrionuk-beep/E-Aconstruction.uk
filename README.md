@@ -1,43 +1,28 @@
-# E&A Ltd Premium Website
+# E&A Ltd Final Website
 
-This version includes:
-- Premium image-led black, cream and gold design
-- No phone number
-- Email: eaconstruction.uk@gmail.com
-- Facebook page name: E&A Ltd
+This version uses your real project photos and includes:
+
+- Email: eaconstrucrion.uk@gmail.com
+- Direct Facebook page link:
+  https://www.facebook.com/share/1JWht17T7Y/?mibextid=wwXIfr
 - Location: E14, London
-- Canadian-owned company wording
-- Mobile-friendly layout and animations
+- Canadian-owned wording
+- No phone number
+- Real flooring, kitchen, decorating and renovation photographs
+- Mobile menu, scrolling animations and fullscreen gallery
 
-## Important: Facebook direct link
+## Update GitHub
 
-The website currently opens a Facebook search for **E&A Ltd**, because a screenshot does not contain the exact page URL.
-
-To make every Facebook button open your page directly:
-
-1. Open your Facebook page.
-2. Tap the three dots.
-3. Choose **Copy link**.
-4. Open `index.html`.
-5. Replace every occurrence of:
-
-https://www.facebook.com/search/top?q=E%26A%20Ltd
-
-with your copied Facebook link.
-
-## Upload this version to GitHub
-
-1. Open your GitHub repository.
-2. Choose **Add file → Upload files**.
-3. Upload:
+1. Download and unzip this package.
+2. Open your existing GitHub repository.
+3. Choose **Add file → Upload files**.
+4. Drag all of these into GitHub:
    - index.html
    - styles.css
    - script.js
-4. Confirm **Commit changes**.
-5. Vercel will automatically publish the new version.
+   - assets folder and all images inside it
+5. When GitHub asks about existing files, allow them to be replaced.
+6. Click **Commit changes**.
+7. Vercel should redeploy automatically.
 
-## Replacing sample photos with your real work
-
-The current version uses professional sample images hosted online.
-When your original project images are available, add them to the repository
-and replace the image URLs in `styles.css`.
+Important: upload the complete `assets` folder. If it is missing, the photos will not appear.
